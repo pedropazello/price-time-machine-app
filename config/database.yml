@@ -1,0 +1,27 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: price_time_machine_development
+  pool: 5
+  username: postgres
+  password: password
+  host: db
+  port: 5432
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: price_time_machine_test
+  pool: 5
+  username: postgres
+  password: password
+  host: db
+  port: 5432
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: price_time_machine_production
+  pool: 5
+  username: sample_postgres
+  password:
